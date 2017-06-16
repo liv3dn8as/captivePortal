@@ -15,11 +15,7 @@ NODEMCU-COMMAND=$(NODEMCU-UPLOADER) -b $(SPEED) --start_baud $(SPEED) -p $(PORT)
 HTTP_FILES := $(wildcard http/*)
 LUA_FILES := \
    init.lua \
-   server.lua \
    counter.txt \
-   hovercraft.mp3 \
-   kg-small.png \
-   test.pdf \
 
 # Print usage
 usage:
