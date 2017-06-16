@@ -16,6 +16,15 @@ HTTP_FILES := $(wildcard http/*)
 LUA_FILES := \
    init.lua \
    counter.txt \
+   httpserver.lua \
+   httpserver-b64decode.lua \
+   httpserver-basicauth.lua \
+   httpserver-conf.lua \
+   httpserver-connection.lua \
+   httpserver-error.lua \
+   httpserver-header.lua \
+   httpserver-request.lua \
+   httpserver-static.lua \
 
 # Print usage
 usage:
