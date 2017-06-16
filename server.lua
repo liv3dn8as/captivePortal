@@ -8,8 +8,6 @@ Based on
 XChip's NodeMCU IDE
 ]]--
 
---Modified again by liv3dn8as, June 2017
-
 srv=net.createServer(net.TCP) 
 srv:listen(80,function(conn) 
 
